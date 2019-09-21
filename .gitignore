@@ -1,0 +1,8 @@
+user/__pycache__
+user/migrations/*
+!user/migrations/__init__.py 
+Asthralogin/__pycache__
+Asthralogin/migrations/*
+!Asthralogin/migrations/__init__.py 
+Asthra/__pycache__
+db.sqlite3

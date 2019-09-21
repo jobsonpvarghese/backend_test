@@ -1,0 +1,15 @@
+{% extends "Asthralogin/base.html" %}
+{% block content %}
+    {% for Event in Events %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h3>{{ Event.name }}</h3>
+              <small class="text-muted">Coordinator : {{ Event.volunteer }}</small>
+            </div>
+            <h6>{{ Event.discription }}</h6>
+            <p class="article-content">Contact:  {{ Event.contact}}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
