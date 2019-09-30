@@ -1,5 +1,5 @@
 # Asthra Management
-Inorder to run this blog create a virtual enviornment and install all the required libraries.
+In order to run this blog create a virtual enviornment and install all the required libraries.
 ## Steps
 
  
