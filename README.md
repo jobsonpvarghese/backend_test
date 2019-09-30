@@ -19,12 +19,12 @@ the above command is used on windows
     cd backend_test
     pip install -r requirements.txt
 #### 5.Applying the database migrations
-This migrations are done inorder to create database tables depending on the model used
+These migrations are done in order to create database tables depending on the model used
 
     python manage.py makemigrations
     python manage.py migrate
 #### 6.Creating a Superuser
-Inoreder to access the admin panel a superuser account is necessary 
+In order to access the admin panel a superuser account is necessary 
 
     python manage.py createsuperuser
 #### 7.Running The Server
