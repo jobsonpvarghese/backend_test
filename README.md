@@ -1,33 +1,31 @@
-# Asthra Management
-In order to run this blog create a virtual enviornment and install all the required libraries.
-## Steps
+# Introduction-to-python-workshop
 
- 
-#### 1.Creating the virtual enviornment
+This repo contains all the resources used during the "Introduction to python" workshop conducted by IEEE SB St. Joseph's College of Engineering and Technology on 15th October 2019.Use the repository as a basic guide lines for starting with python. 
 
-    virtualenv Asthra
-#### 2.Activating the virtual enviornment
+Clone the repository as shown [here](https://help.github.com/en/articles/cloning-a-repository)
 
-    cd Asthra
-    ./Scripts/activate
-the above command is used on windows
-#### 3.Cloning the Repository
+## Installing Python
 
-    git clone https://github.com/jobsonpvarghese/backend_test.git
-#### 4.Installing the required libraries
+Open [python official website](https://www.python.org/) download the latest python release.
 
-    cd backend_test
-    pip install -r requirements.txt
-#### 5.Applying the database migrations
-These migrations are done in order to create database tables depending on the model used
+### For Windows Users :
 
-    python manage.py makemigrations
-    python manage.py migrate
-#### 6.Creating a Superuser
-In order to access the admin panel a superuser account is necessary 
+open the .exe file, check the Add Paths to file checkbox and install python.
+open command pormpt or windows power shell and type
 
-    python manage.py createsuperuser
-#### 7.Running The Server
+	  python
+to enter the interactive python shell.
 
-    python manage.py runserver
+Use ```python --version``` To check python version installed on your computer
+
+### For Linux Users:
+Type the following command in the terminal
+
+	apt-get install python3.8
+### For mac users
+Type the following command in the terminal
+
+```
+brew install python
+```
 
